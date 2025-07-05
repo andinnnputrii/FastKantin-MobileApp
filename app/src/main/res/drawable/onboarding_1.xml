@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background -->
+    <path
+        android:fillColor="@color/background_color"
+        android:pathData="M0,0h280v280H0z" />
+
+    <!-- Phone -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M90,60h100c8,0 15,7 15,15v130c0,8 -7,15 -15,15H90c-8,0 -15,-7 -15,-15V75c0,-8 7,-15 15,-15z" />
+
+    <!-- Screen -->
+    <path
+        android:fillColor="@color/surface_color"
+        android:pathData="M95,75h90v110H95z" />
+
+    <!-- Food Items (circle converted to path) -->
+
+    <!-- Circle 1 -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M120,110 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+
+    <!-- Circle 2 -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M160,110 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+
+    <!-- Circle 3 -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M120,150 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+
+    <!-- Circle 4 -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M160,150 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+</vector>

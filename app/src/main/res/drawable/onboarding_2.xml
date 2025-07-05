@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background -->
+    <path
+        android:fillColor="@color/background_color"
+        android:pathData="M0,0h280v280H0z" />
+
+    <!-- Clock -->
+    <!-- Lingkaran luar (filled circle) -->
+    <path
+        android:fillColor="@color/surface_color"
+        android:pathData="M140,140 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" />
+
+    <!-- Lingkaran dalam (transparent with stroke) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary_color"
+        android:strokeWidth="5"
+        android:pathData="M140,140 m-75,0 a75,75 0 1,0 150,0 a75,75 0 1,0 -150,0" />
+
+    <!-- Clock hands -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:strokeColor="@color/primary_color"
+        android:strokeWidth="4"
+        android:pathData="M140,140L140,80" />
+
+    <path
+        android:fillColor="@color/primary_color"
+        android:strokeColor="@color/primary_color"
+        android:strokeWidth="3"
+        android:pathData="M140,140L180,140" />
+
+    <!-- Center dot -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M140,140 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+</vector>

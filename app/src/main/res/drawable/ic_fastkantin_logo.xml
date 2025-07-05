@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Fork Icon -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M45,30L45,45L40,45L40,55L50,55L50,45L45,45L45,30M45,25L50,25L50,30L45,30L45,25M40,25L45,25L45,30L40,30L40,25" />
+
+    <!-- Spoon Icon -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M70,30Q75,25 80,30Q75,35 70,30L70,45L75,45L75,55L70,55L70,45L70,30Z" />
+
+    <!-- Plate -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M30,65Q30,60 60,60Q90,60 90,65Q90,70 60,70Q30,70 30,65Z" />
+
+    <!-- Food -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M50,62Q55,58 65,62Q70,65 65,68Q55,72 50,68Q45,65 50,62Z" />
+</vector>

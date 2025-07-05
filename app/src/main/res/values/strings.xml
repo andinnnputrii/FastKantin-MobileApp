@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">FASTKANTIN</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="orders">Pesanan</string>
+
+    <!-- Splash Screen -->
+    <string name="tagline">Pesan Makanan Kantin dengan Mudah</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Pesan Makanan Mudah</string>
+    <string name="onboarding_desc_1">Pilih makanan favorit dari berbagai tenant kantin kampus</string>
+    <string name="onboarding_title_2">Tanpa Antri Panjang</string>
+    <string name="onboarding_desc_2">Hindari antrian dengan memesan secara online</string>
+    <string name="onboarding_title_3">Pembayaran Praktis</string>
+    <string name="onboarding_desc_3">Bayar dengan QRIS, Transfer, atau Cash saat pengambilan</string>
+    <string name="next">Selanjutnya</string>
+    <string name="skip">Lewati</string>
+    <string name="get_started">Mulai</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Masuk ke akun Anda untuk melanjutkan</string>
+    <string name="create_account">Buat Akun Baru</string>
+    <string name="register_subtitle">Daftar untuk mulai memesan makanan</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="phone">No. Telepon</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+    <string name="already_have_account">Sudah punya akun?</string>
+
+    <!-- Home -->
+    <string name="welcome">Selamat Datang</string>
+    <string name="choose_tenant">Pilih Tenant</string>
+
+    <!-- Menu -->
+    <string name="add_to_cart">Tambah ke Keranjang</string>
+    <string name="price_format">Rp %,.0f</string>
+    <string name="menu_detail">Detail Menu</string>
+    <string name="quantity_label">Jumlah:</string>
+    <string name="note_label">Catatan (Opsional):</string>
+    <string name="note_hint">Tambahkan catatan...</string>
+    <string name="total_price_label">Total Harga:</string>
+    <string name="decrease_quantity">Kurangi jumlah</string>
+    <string name="increase_quantity">Tambah jumlah</string>
+
+    <!-- Cart -->
+    <string name="cart">Keranjang</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total</string>
+    <string name="cart_empty">Keranjang Kosong</string>
+    <string name="cart_empty_desc">Tambahkan menu favorit Anda</string>
+    <string name="clear_all">Hapus Semua</string>
+    <string name="remove_item">Hapus item dari keranjang</string>
+
+    <!-- Orders -->
+    <string name="order_history">Riwayat Pesanan</string>
+    <string name="order_detail">Detail Pesanan</string>
+    <string name="no_orders">Belum Ada Pesanan</string>
+    <string name="no_orders_desc">Mulai pesan makanan favorit Anda</string>
+    <string name="view_detail">Lihat Detail</string>
+
+    <!-- Profile -->
+    <string name="profile">Profil</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="logout">Keluar</string>
+
+    <!-- General -->
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="update">Update</string>
+    <string name="search">Cari</string>
+    <string name="filter">Filter</string>
+    <string name="category">Kategori</string>
+    <string name="quantity">Jumlah</string>
+    <string name="note">Catatan</string>
+    <string name="pickup_time">Waktu Pengambilan</string>
+    <string name="payment_method">Metode Pembayaran</string>
+
+    <!-- Payment Methods -->
+    <string name="qris">QRIS</string>
+    <string name="cash">Cash</string>
+    <string name="transfer">Transfer</string>
+
+    <!-- Status -->
+    <string name="pending">Menunggu</string>
+    <string name="completed">Selesai</string>
+    <string name="cancelled">Dibatalkan</string>
+    <string name="paid">Dibayar</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_field">Field tidak boleh kosong</string>
+    <string name="error_invalid_email">Format email tidak valid</string>
+    <string name="error_password_mismatch">Password tidak sama</string>
+    <string name="error_login_failed">Login gagal, periksa email dan password</string>
+    <string name="error_register_failed">Registrasi gagal</string>
+    <string name="error_email_exists">Email sudah terdaftar</string>
+
+    <string name="welcome_user">Halo, User!</string>
+    <string name="tidak_ada_tenant_tersedia">Tidak ada tenant tersedia</string>
+    <string name="search_hint">Masukkan kata kunci...</string>
+    <string name="category_label">Kategori</string>
+    <string name="empty_state_text">Tidak ada hasil ditemukan</string>
+
+
+</resources>

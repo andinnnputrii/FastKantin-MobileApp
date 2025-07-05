@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Background -->
+    <path
+        android:fillColor="@color/background_color"
+        android:pathData="M0,0h280v280H0z" />
+
+    <!-- Credit Card -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M60,100h160c8,0 15,7 15,15v50c0,8 -7,15 -15,15H60c-8,0 -15,-7 -15,-15v-50c0,-8 7,-15 15,-15z" />
+
+    <!-- Card stripe -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M45,120h190v20H45z" />
+
+    <!-- QR Code -->
+    <path
+        android:fillColor="@color/surface_color"
+        android:pathData="M70,130h20v20H70z" />
+
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="
+            M72,132h4v4h-4z
+            M78,132h4v4h-4z
+            M72,138h4v4h-4z
+            M78,138h4v4h-4z
+            M84,132h4v4h-4z
+            M84,138h4v4h-4z" />
+
+    <!-- Payment symbols (circle converted to path) -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M140,200 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" />
+
+    <!-- Payment rectangle -->
+    <path
+        android:fillColor="@color/surface_color"
+        android:pathData="M130,195h20v10h-20z" />
+</vector>

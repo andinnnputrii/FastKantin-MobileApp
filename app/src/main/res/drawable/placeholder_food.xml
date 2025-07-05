@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background -->
+    <path
+        android:fillColor="@color/background_color"
+        android:pathData="M0,0h100v100H0z" />
+
+    <!-- Plate -->
+    <path
+        android:fillColor="@color/surface_color"
+        android:pathData="M50,15
+            A35,35 0 1,1 49.999,15Z" />
+
+    <!-- Food Item 1 -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M45,37
+            A8,8 0 1,1 44.999,37Z" />
+
+    <!-- Food Item 2 -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M55,37
+            A8,8 0 1,1 54.999,37Z" />
+
+    <!-- Food Item 3 -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M50,47
+            A8,8 0 1,1 49.999,47Z" />
+
+</vector>
